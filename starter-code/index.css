@@ -1,5 +1,18 @@
-.ios {
-   
-   background-color: black;
-   color:white;
+@import url("https://fonts.google.com/IBM+Plex+Sans Display:wght@400; 700&display=swap");
+
+:root {
+    --Very-light-gray: hsl(0, 0%, 95%);
+    --Red-orange: hsl(12, 94%, 65%);
+    --Blue-magenta: hsl(244, 37%, 15%);
+    --Magenta-green: hsl(20, 33%, 98%);
+    --Blue-green: hsl(7, 33%, 98%);
+    --Very-dark-blue-magenta: hsl(244, 23%, 12%);
 }
+
+body {
+    background-color: var(--Very-light-gray);
+   
+}
+
+
+
