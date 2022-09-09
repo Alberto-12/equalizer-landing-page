@@ -11,20 +11,31 @@
 
 body {
   background-color: #f2f2f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .container {
   width: 375px;
   height: 1945px;
-  background-image: url("assets/bg-main-mobile.png"),
-    url("assets/bg-pattern-2.svg");
-  background-repeat: no-repeat, no-repeat;
-  background-position: 0px -190px, 40px 650px;
-  background-size: 800px 800px, 300px 420px;
-  
+  background-image: url("assets/bg-main-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 0px -190px;
+  background-size: 800px 800px;
+}
+
+.pattern2-div {
+  position: absolute;
+  width: 375px;
+  height: 600px;
+  left: 8.2px;
+  top: 655px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-image: url("assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-color: #191826;
+  background-size: 280px 420px;
+  background-position: 48px 0px;
+  z-index: -1;
 }
 
 .first-logo {
@@ -67,21 +78,9 @@ h1 {
   position: relative;
 }
 
-.premium {
-  border: solid black;
-  width: 375px;
-  height: 1024px;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  margin-top: 68px;
-  position: relative;
-  margin-bottom: 1000px;
-}
-
 .premium-eq {
   width: 375px;
   height: 546px;
-  position: relative;
   margin-top: 42px;
   background: #fa7453;
   border-radius: 12px;
@@ -96,10 +95,15 @@ h2 {
   color: #fcfaf9;
   width: 302px;
   height: 40px;
-  margin-left: 36px;
+  position: relative;
+  top: 30px;
+  left: 36px;
 }
 
 .second-p {
+  position: relative;
+  top: 30px;
+  left: 36px;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 400;
@@ -108,19 +112,27 @@ h2 {
   color: #fcfaf9;
   width: 302px;
   height: 140px;
-  margin-left: 36px;
+}
+
+.price-div {
+  width: 165px;
+  height: 52px;
+  position: relative;
+  top: 40px;
+  left: 42px;
 }
 
 .price {
+  width: 79px;
+  height: 52px;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 65px;
   line-height: 52px;
   color: #fcfaf9;
-  width: 79px;
-  height: 52px;
-  margin-left: 42px;
+  position: relative;
+  right: 10px;
 }
 
 .month {
@@ -131,13 +143,20 @@ h2 {
   line-height: 32px;
   letter-spacing: -0.2px;
   color: #fcfaf9;
-  width: 70px;
-  height: 32px;
-  margin-left: 16px;
-  margin-top: 45px;
+  position: relative;
+  bottom: 40px;
+  left: 86px;
 }
 
-.ios {
+.ios-button {
+  padding: 14px 80px;
+  text-decoration: none;
+  border-radius: 12px;
+  background: #191826;
+  border: none;
+  position: relative;
+  top: 110px;
+  left: 42px;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 700;
@@ -147,11 +166,23 @@ h2 {
   color: #fcfaf9;
   width: 296px;
   height: 61px;
-  margin-left: 42px;
-  margin-top: 32px;
 }
 
-.android {
+.ios-icon {
+  position: relative;
+  top: 1px;
+  right: 10px;
+}
+
+.android-button {
+  padding: 14px 60px;
+  text-decoration: none;
+  border-radius: 12px;
+  background: #fcfaf9;
+  border: none;
+  position: relative;
+  top: 150px;
+  left: 42px;
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 700;
@@ -161,8 +192,18 @@ h2 {
   color: #191826;
   width: 296px;
   height: 61px;
-  margin-left: 42px;
-  margin-top: 32px;
+}
+
+.android-icon {
+  position: relative;
+  top: 2px;
+  right: 5px;
+}
+
+footer {
+  width: 375px;
+  height: 397px;
+  background-color: #f2f2f2;
 }
 
 .second-logo {
@@ -184,6 +225,8 @@ h2 {
 }
 
 .icons {
+  display: flex;
+  justify-content: space-around;
   width: 100px;
   height: 20px;
   margin-bottom: 80px;
