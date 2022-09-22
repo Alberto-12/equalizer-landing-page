@@ -1,26 +1,19 @@
 @import url("https://fonts.google.com/IBM+Plex+Sans Display:wght@400; 700&display=swap");
 
-:root {
-  --Very-light-gray: hsl(0, 0%, 95%);
-  --Red-orange: hsl(12, 94%, 65%);
-  --Blue-magenta: hsl(244, 37%, 15%);
-  --Magenta-green: hsl(20, 33%, 98%);
-  --Blue-green: hsl(7, 33%, 98%);
-  --Very-dark-blue-magenta: hsl(244, 23%, 12%);
-}
 
 body {
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .container {
   width: 375px;
   background-image: url("assets/bg-main-mobile.png");
   background-repeat: no-repeat;
-  background-position: 0px -190px;
+  background-position: 10px -190px;
   background-size: 800px 800px;
 }
 
@@ -40,7 +33,6 @@ h1 {
   margin-top: 64.01px;
   margin-left: 20px;
   width: 327px;
-  
 }
 
 .first-p {
@@ -60,7 +52,7 @@ h1 {
   width: 208.97px;
   height: 430px;
   margin-top: 68px;
-  margin-left: 80.67px;
+  margin-left: 85px;
 }
 
 .pattern2-div {
@@ -68,6 +60,7 @@ h1 {
   width: 375px;
   height: 500px;
   left: auto;
+  right: auto;
   top: 655px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -75,7 +68,7 @@ h1 {
   background-repeat: no-repeat;
   background-color: #191826;
   background-size: 280px 420px;
-  background-position: 48px 0px;
+  background-position: 40% 0px;
   z-index: -1;
 }
 
@@ -83,7 +76,6 @@ h1 {
   box-sizing: border-box;
   width: 375px;
   height: 546px;
-  margin-top: 42px;
   background: #fa7453;
   border-radius: 12px;
 }
@@ -97,7 +89,6 @@ h2 {
   color: #fcfaf9;
   padding-top: 48px;
   padding-left: 36px;
-
 }
 
 .second-p {
@@ -128,7 +119,6 @@ h2 {
   font-size: 65px;
   line-height: 52px;
   color: #fcfaf9;
-  
 }
 
 .month {
@@ -171,7 +161,7 @@ h2 {
 
 .ios-button:hover {
   cursor: pointer;
-  background-color: #66E2DC;
+  background-color: #66e2dc;
 }
 
 .android-button {
@@ -197,12 +187,12 @@ h2 {
 }
 
 .android-icon {
-  padding-right: 7.8px ;
+  padding-right: 7.8px;
 }
 
 .android-button:hover {
   cursor: pointer;
-  background-color: #FFB964;
+  background-color: #ffb964;
 }
 
 footer {
@@ -235,4 +225,233 @@ footer {
   width: 100px;
   margin-bottom: 80px;
   margin-left: 24px;
+}
+
+.facebook:hover {
+  background: #fa7453;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  background: #fa7453;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  background: #fa7453;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container {
+    width: 726px;
+    background-image: url("assets/bg-main-mobile.png"),
+      url("assets/bg-pattern-1.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: 10px -190px, 550px -20px;
+    background-size: 800px 800px, 200px 300px;
+  }
+
+  .first-logo {
+    margin-top: 61.99px;
+    margin-left: 39.15;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+    color: #191826;
+    margin-top: 95.01px;
+    margin-left: 39px;
+  }
+
+  .first-p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #191826;
+    margin-top: 28px;
+    margin-left: 3%;
+    width: 514px;
+    height: 112px;
+  }
+
+  .illustration-img {
+    width: 270.21px;
+    height: 556px;
+    margin-left: 80px;
+    margin-top: 100px;
+  }
+
+  .pattern2-div {
+    margin-top: 200px;
+    margin-left: 14px;
+    width: 696px;
+    border-radius: 12px;
+    background-position: 230px -50px;
+    background-size: 300px 500px;
+  }
+
+  .premium-eq {
+    width: 399px;
+    position: absolute;
+    top: 1010px;
+    left: 280px;
+  }
+
+  .ios-button {
+    margin-left: 50px;
+  }
+
+  .android-button {
+    margin-left: 50px;
+  }
+
+  h2 {
+    padding-top: 15px;
+    padding-left: 46px;
+  }
+
+  .second-p {
+    width: 302px;
+    height: 140px;
+    margin-left: 10px;
+  }
+
+  footer {
+    margin-top: 40%;
+  }
+
+  .p-icons {
+    width: 696px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icons {
+    padding-top: 10%;
+  }
+}
+
+@media (min-width: 992px) {
+  .body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .container {
+    width: 1200px;
+    height: 1900px;
+    background-image: url("assets/bg-main-mobile.png"),
+      url("assets/bg-pattern-1.svg");
+    background-repeat: no-repeat no-repeat;
+    background-position: 500px -190px, 900px -20px;
+    background-size: 800px 800px, 300px 400px;
+  }
+
+  h1 {
+    margin-left: 45px;
+    width: 1015px;
+    height: 176px;
+  }
+
+  .first-logo {
+    margin-left: 50px;
+  }
+
+  .pattern2-div {
+    width: 1110px;
+    height: 600px;
+    margin-left: 45px;
+    margin-top: 250px;
+    background-position: 330px -30px;
+    background-size: 300px 450px;
+  }
+  .first-p {
+    margin-left: 45px;
+    width: 825px;
+    height: 102px;
+  }
+
+  .illustration-img {
+    width: 312px;
+    height: 642px;
+    position: absolute;
+    top: 580px;
+    left: 100px;
+  }
+
+  .premium-eq {
+    width: 446px;
+    height: 625px;
+    position: absolute;
+    top: 1000px;
+    left: 640px;
+  }
+
+  h2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+
+  .second-p {
+    width: 333px;
+    height: 170px;
+    position: relative;
+    left: 10px;
+  }
+
+  .price-div {
+    position: relative;
+    left: 10px;
+  }
+
+  .ios-button {
+    width: 333px;
+    height: 61px;
+    position: relative;
+    top: 20px;
+  }
+
+  .android-button {
+    width: 333px;
+    height: 61px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 79px;
+    margin-top: 1150px;
+  }
+
+  .second-logo {
+    padding-right: 150px;
+  }
+
+  .third-p {
+    padding-top: 120px;
+  }
+
+  .icons {
+    padding-top: 190px;
+  }
 }
