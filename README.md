@@ -1,6 +1,6 @@
 # Frontend Mentor - Equalizer landing page solution
 
-This is a solution to the [Equalizer landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/equalizer-landing-page-7VJ4gp3DE). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Equalizer landing page challenge on Frontend Mentor](https://www.frontendmentor.io/solutions/equalizerlandingpage-_gRxIfs_wY). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -27,12 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/Screenshot%202022-12-13%20at%2014-31-16%20Frontend%20Mentor%20Equalizer%20landing%20page.png)
+![](./assets/Screenshot%202022-12-15%20at%2011-54-19%20Frontend%20Mentor%20Equalizer%20landing%20page.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://alberto-12.github.io/equalizer-landing-page/)
 
 ## My process
 
@@ -44,10 +43,10 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I learned how to work with Flebox.
+This is a challenge to test  HTML & CSS skills. IT is a step up from smaller projects to build responsive layouts. Here's a snippet of a CSS code where I used Flexbox.
 
 ```css
-.proud-of-this-css {
+body {
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
@@ -66,8 +65,8 @@ I'm looking forward to learn more about HTML an CSS.
 
 ## Author
 
-- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Alberto-12](https://www.frontendmentor.io/profile/Alberto-12)
 
 ## Acknowledgments
 
-I'm very thankfull for my mentor Treasure Kabareebe that guided me through the process.
+I'm very thankfull for my mentor [Treasure Kabareebe](https://github.com/trekab) that guided me through the process.
